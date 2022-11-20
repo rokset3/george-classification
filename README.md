@@ -11,7 +11,7 @@ python model_training.py
 ~~~
 resulting model will be saved at softline-assignment/runs/train/
 
-### For testing ono your test set
+### For testing on your test set
 Add images to softline-assignment/inference/images
 
 run 
