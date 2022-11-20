@@ -1,5 +1,25 @@
 # softline-assignment
 ~~~
+pip install -r requirements.txt
+~~~
+### For training on your dataset:
+Add images to the softline-assignment/Dataset/train & val
+
+run 
+~~~
+python model_training.py
+~~~
+resulting model will be saved at softline-assignment/runs/train/
+
+### For testing ono your test set
+Add images to softline-assignment/inference/images
+
+run 
+~~~
+python inference.py
+~~~
+output is saved as csv file at softline-assignment/inference/output.csv
+~~~
 +-- softline-assignment
 
 |   +-- inference.py //script to inference on images from /inference/images
