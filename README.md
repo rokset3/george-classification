@@ -1,4 +1,4 @@
-# softline-assignment
+# george-classification
 ~~~
 pip install -r requirements.txt
 ~~~
