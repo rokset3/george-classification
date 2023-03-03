@@ -3,7 +3,7 @@
 pip install -r requirements.txt
 ~~~
 ### For training on your dataset:
-Add images to the softline-assignment/Dataset/train & val
+Add images to the george-classification/Dataset/train & val
 
 run 
 ~~~
@@ -12,15 +12,15 @@ python model_training.py
 resulting model will be saved at softline-assignment/runs/train/
 
 ### For testing on your test set
-Add images to softline-assignment/inference/images
+Add images to george-classification/inference/images
 
 run 
 ~~~
 python inference.py
 ~~~
-output is saved as csv file at softline-assignment/inference/output.csv
+output is saved as csv file at george-classification/inference/output.csv
 ~~~
-+-- softline-assignment
++-- george-classification
 
 |   +-- inference.py //script to inference on images from /inference/images
 |   +-- model_training.py //to train the model
