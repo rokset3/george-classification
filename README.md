@@ -9,7 +9,7 @@ run
 ~~~
 python model_training.py
 ~~~
-resulting model will be saved at softline-assignment/runs/train/
+resulting model will be saved at george-classification/runs/train/
 
 ### For testing on your test set
 Add images to george-classification/inference/images
